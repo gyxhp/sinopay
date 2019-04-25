@@ -1,0 +1,4 @@
+
+
+# 安装到本地maven仓库
+mvn install -Dmaven.test.skip=true

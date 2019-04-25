@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sinosoft.pay.dal.dao.mapper.SysUserMapper" >
+    <resultMap id="BaseResultMap" type="com.sinosoft.pay.dal.dao.model.SysUser">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="id" jdbcType="VARCHAR" property="id" />
+        <result column="username" jdbcType="VARCHAR" property="username" />
+        <result column="password" jdbcType="VARCHAR" property="password" />
+        <result column="age" jdbcType="INTEGER" property="age" />
+        <result column="email" jdbcType="VARCHAR" property="email" />
+        <result column="photo" jdbcType="VARCHAR" property="photo" />
+        <result column="real_name" jdbcType="VARCHAR" property="realName" />
+        <result column="create_by" jdbcType="VARCHAR" property="createBy" />
+        <result column="update_by" jdbcType="VARCHAR" property="updateBy" />
+        <result column="create_date" jdbcType="TIMESTAMP" property="createDate" />
+        <result column="update_date" jdbcType="TIMESTAMP" property="updateDate" />
+        <result column="del_flag" jdbcType="TINYINT" property="delFlag" />
+    </resultMap>
+
+    <select id="CheckUser"  parameterType="com.sinosoft.pay.dal.dao.model.SysUser" resultMap="BaseResultMap" >
+        select * from t_sys_user a
+        <where>
+            a.username=#{username} and a.password=#{password} and del_flag=0
+        </where>
+    </select>
+</mapper>

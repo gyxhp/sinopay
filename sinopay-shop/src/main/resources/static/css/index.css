@@ -1,0 +1,152 @@
+body{
+	max-width: 1200px;
+	min-width: 320px;
+	margin: 0 auto;
+	font-family: "微软雅黑";
+	background-color: #f5f5f5;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 0.27rem;
+	font-family: "微软雅黑";
+}
+.ht3{
+	height: .3rem;
+	background-color: #f5f5f5;
+}
+ul,li{ padding:0;margin:0;list-style:none}
+.auto{
+    padding-left: .3rem;
+	margin: 0 auto;
+    background-color: #ffffff;
+}
+.w30{
+	width: 30%;
+	display: block;
+}
+.w69{
+	width: 69%;
+	display: block;
+}
+.w100{
+	width: 100%;
+	display: block;
+}
+.tc{
+	text-align: center;
+}
+.pt1{
+	padding-top:.1rem ;
+}
+.pt2{
+	padding-top:.2rem ;
+}
+.moneyC{
+	font-size: .68rem;
+    color: #333333;
+}
+.inputText {
+	padding-top: .5rem;
+    padding-bottom: .3rem;
+    background-color: #ffffff;
+}
+.inputTextN{
+	height: .6rem;
+	line-height: .6rem;
+	padding-right: .3rem;
+}
+.color{
+	color: #999999;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+input{
+	width: 98%;
+	height: 100%;
+	border: none;
+	padding-left:2%;
+}
+.input{
+	border-radius: .1rem;
+	border: 1px solid #CCCCCC;
+}
+.clear{
+	clear: both;
+}
+.bdN{
+	border: 0px;
+}
+input:focus { outline: none; } 
+.btn{
+    height: .8rem;
+    background-color: #ffae22;
+    text-align: center;
+    line-height: .8rem;
+    color: #ffffff;
+    border-radius: .07rem;
+    margin-top: .5rem;
+    font-size: .32rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
+}
+.title{
+    background-color: #fff9d9;
+    color: #f86e21;
+    font-size: .25rem;
+    padding: .18rem .3rem;
+}
+.method h3{
+    padding: .3rem 0 .2rem 0;
+    font-weight: 500;
+    font-size: .28rem;
+}
+.methodList{
+	padding: .2rem .3rem .2rem 0;
+}
+.bdB{
+	border-bottom: 1px solid #E1E1E1;
+}
+.methodList span{
+	display: block;
+	line-height: .6rem;
+    font-size: .3rem;
+}
+.methodList .icon_img{
+    width: .6rem;
+    display: block;
+    margin-right: .2rem;
+    margin-top: -.02rem;
+}
+img{
+	width: 98%;
+	height: 98%;
+	display: block;
+}
+.methodList .icon_zfb{
+	width: .6rem
+}
+.methodList .icon_wx{
+	width: .64rem;
+    margin-top: -.08rem;
+	width: .6rem
+}
+.methodList .icon_yl{
+	margin-top: -.1rem;
+    width: .8rem
+}
+.methodList .icon_Select{
+	width: .4rem;
+	height: .4rem;
+	margin-top: .1rem;
+	background: url(../img/selectN.png) no-repeat;
+	background-size:100% 100% ;
+}
+.active .icon_Select{
+	background: url(../img/select.png) no-repeat;
+	background-size:100% 100% ;
+}
